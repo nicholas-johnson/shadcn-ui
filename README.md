@@ -1,5 +1,5 @@
 > [!NOTE]
-> This fork of [RustForWeb/shadcn-ui](https://github.com/RustForWeb/shadcn-ui) is maintained. The Leptos packages build on Leptos 0.8.23.
+> This is a fork of [RustForWeb/shadcn-ui](https://github.com/RustForWeb/shadcn-ui), continued here because the original project was unmaintained. The Leptos packages build on Leptos 0.8.23.
 
 ---
 
@@ -27,6 +27,8 @@ See [the Rust shadcn/ui book](https://shadcn-ui.rustforweb.org).
 
 ## Credits
 
+[Daniëlle Huisman](https://github.com/DanielleHuisman) created this project as part of [Rust for Web](https://github.com/RustForWeb).
+
 The logo is a combination of the [shadcn/ui logo](https://github.com/shadcn-ui/ui/blob/main/apps/www/components/icons.tsx) and [Ferris the Rustacean](https://rustacean.net/).
 
 ## License
@@ -35,4 +37,4 @@ This project is available under the [MIT license](LICENSE.md).
 
 ## History
 
-This repository started as part of [Rust for Web](https://github.com/RustForWeb). That project marked the port unmaintained in February 2026. This fork continues the Leptos packages.
+[Daniëlle Huisman](https://github.com/DanielleHuisman) created the port under [Rust for Web](https://github.com/RustForWeb). The original repository was marked unmaintained in February 2026. This fork exists so the Leptos packages can keep going.
