@@ -1,5 +1,5 @@
-> [!WARNING]
-> This project is unmaintained.
+> [!NOTE]
+> This fork of [RustForWeb/shadcn-ui](https://github.com/RustForWeb/shadcn-ui) is maintained. The Leptos packages build on Leptos 0.8.23.
 
 ---
 
@@ -17,16 +17,9 @@ Rust port of [shadcn/ui](https://ui.shadcn.com/).
 
 ## Frameworks
 
-Rust shadcn/ui is available for these Rust frameworks:
+The maintained target is [Leptos](./packages/leptos). Alert, badge, button, card, and the book example compile for `wasm32-unknown-unknown` on Leptos 0.8.23.
 
-- [Leptos](./packages/leptos)
-- [Yew](https://yew.rs/)
-
-The following frameworks are under consideration:
-
-- [Dioxus](https://dioxuslabs.com/)
-
-See [the Rust shadcn/ui book](https://shadcn-ui.rustforweb.org/introduction.html#frameworks) for more information.
+Yew components are still in the tree. They are not part of the workspace build, because they depend on crates that are no longer published.
 
 ## Documentation
 
@@ -40,8 +33,6 @@ The logo is a combination of the [shadcn/ui logo](https://github.com/shadcn-ui/u
 
 This project is available under the [MIT license](LICENSE.md).
 
-## Rust for Web
+## History
 
-The Rust shadcn/ui project is part of [Rust for Web](https://github.com/RustForWeb).
-
-[Rust for Web](https://github.com/RustForWeb) creates and ports web libraries for Rust. All projects are free and open source.
+This repository started as part of [Rust for Web](https://github.com/RustForWeb). That project marked the port unmaintained in February 2026. This fork continues the Leptos packages.
